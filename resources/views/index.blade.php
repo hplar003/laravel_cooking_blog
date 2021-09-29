@@ -17,9 +17,9 @@
         <div class="flow-root  w-full m-auto sm:min-h-full  " >
             <img src="{{ asset('/img/welcome.png') }}" alt=""  class="bg-transparent" >
         </div>
-        <div class="flow-root h-screen md:w-full md:h-full m-auto p-auto  tracking-normal justify-center md:text-center lg:text-center leading-7" >
-            <h2 class=" text-4xl font-sans py-4 text-center  text-gray-600 lg:py-10">Cook with me</h2>
-            <p class="w-full h-full text-sm md:text-base text-center  md:px-5 md:py-5 lg:px-10 lg:py-10 text-gray-500 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fuga temporibus dolores neque ipsa fugit quasi eius inventore quaerat amet quos dicta a quis, in libero sit nostrum vero ullam doloremque aliquam expedita commodi. Saepe ipsum dolore aperiam blanditiis omnis maiores quaerat possimus tempora magnam a optio, repellendus necessitatibus veniam aliquam ut nobis odit aspernatur perferendis officiis. Eos, et aliquam quidem aliquid tempore praesentium error, tempora odio, quia architecto cumque eum odit facilis! Nisi incidunt voluptate ex minima! Totam alias neque quo modi. Nesciunt, quam ducimus tenetur eaque reprehenderit qui omnis magnam quasi sint laborum! Ullam ut a quasi ea.</p>
+        <div class="flex-wrap md:flow-root h-screen md:w-full md:h-full m-auto p-auto  tracking-normal justify-center md:text-center lg:text-center leading-5 md:leading-7 lg:leading-7" >
+            <h2 class=" text-3xl md:text-4xl lg:text-4xl font-sans py-4 text-center  text-gray-600 lg:py-10">Cook with me</h2>
+            <p class="w-full h-full text-sm md:text-base text-center px-3  md:px-5 md:py-5 lg:px-10 lg:py-10 text-gray-500 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fuga temporibus dolores neque ipsa fugit quasi eius inventore quaerat amet quos dicta a quis, in libero sit nostrum vero ullam doloremque aliquam expedita commodi. Saepe ipsum dolore aperiam blanditiis omnis maiores quaerat possimus tempora magnam a optio, repellendus necessitatibus veniam aliquam ut nobis odit aspernatur perferendis officiis. Eos, et aliquam quidem aliquid tempore praesentium error, tempora odio, quia architecto cumque eum odit facilis! Nisi incidunt voluptate ex minima! Totam alias neque quo modi. Nesciunt, quam ducimus tenetur eaque reprehenderit qui omnis magnam quasi sint laborum! Ullam ut a quasi ea.</p>
         </div>
     </div>
     
@@ -28,7 +28,7 @@
     
         
         <div id="card" class="">
-          <h2 class="text-center font-serif text-gray-500 uppercase text-4xl xl:text-5xl">Recent Articles</h2>
+          <h2 class="text-center font-serif text-gray-500 uppercase text-4xl xl:text-5xl pb-5">Recent Articles</h2>
           <!-- container for all cards -->
 
           @foreach ($posts as $post )

@@ -35,8 +35,8 @@
     </div>
 
 
-    <div class="w-full mx-10 my-10 px-10 lg:leading-relaxed text-left">
-        <h3 class="uppercase text-3xl font-semibold text-red-400 tracking-wider ">Instructions</h3>
+    <div class="w-full mx-5 my-10 px-5 py-5 md:mx-10 md:my-10 lg:mx-10 lg:my-10 md:px-10 lg:px-10 lg:leading-relaxed text-left">
+        <h3 class="uppercase text-2xl md:text-3xl lg:text-3xl pb-10 font-semibold text-red-400 tracking-wider ">Instructions</h3>
         <p class="text-5xl" >{!! $post->instruction !!}</p>
 
     </div>
