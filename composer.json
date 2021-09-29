@@ -53,6 +53,10 @@
         "@php artisan optimize",
         "@php artisan migrate --force",
         "@php artisan passport:install --force"
+        ],
+        "post-install-cmd": [
+            "php artisan clear-compiled",
+            "chmod -R 777 public/"
         ]
     },
     "extra": {
